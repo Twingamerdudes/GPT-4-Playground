@@ -1,38 +1,14 @@
-# create-svelte
+# GPT-4 Playground
+GPT-4 Playground is a simple SvelteKit website that can interact with the GPT-4 API and in simple terms is just ChatGPT using GPT-4. It also has support for basic markdown.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Here's a example of what I got it to do: [I got GPT-4 to make a tf2 story](https://steamcommunity.com/app/440/discussions/0/3820780544823274249)
 
-## Creating a project
+# Setup
+Download or clone the repo, then go into .env and add your OpenAI API Key to the API_KEY parameter.
 
-If you're seeing this, you've probably already done this step. Congrats!
+It's that simple!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+# Running
+In your console just run `npm run dev` or `npm run dev -- --open` to run the project. From there you can talk to the chatbot and make it do random stuff.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+**IMPORTANT: THE LONGER YOU CHAT WITH IT, THE MORE MONEY YOU SPEND (thanks openai for making prompts cost money)!!! IT IS RECOMMENED TO KEEP CONVERSATIONS SHORT!!!!**
