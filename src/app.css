@@ -1,0 +1,69 @@
+h1,
+p{
+    font-family: grenadine-mvb, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+body{
+    background-color: #d8d8d8;
+    font-family: grenadine-mvb, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: grenadine-mvb, sans-serif;
+    /* center the button */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text] {
+    font-family: grenadine-mvb, sans-serif;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    /* center the input */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Messages{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    /* center the input */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Main{
+    background-color: #e9e9e9;
+    width: 50%;
+    /* center the input */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* make it go to the top */
+    height: 100%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
