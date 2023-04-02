@@ -4,7 +4,9 @@ GPT-4 Playground is a simple SvelteKit website that can interact with the GPT-4 
 Here's a example of what I got it to do: [I got GPT-4 to make a tf2 story](https://steamcommunity.com/app/440/discussions/0/3820780544823274249)
 
 # Setup
-Download or clone the repo, then go into .env and add your OpenAI API Key to the API_KEY parameter.
+Download or clone the repo, then create a .env file and add API_KEY=(your openai api key) to it.
+
+Then in the console run the command `npm install`
 
 It's that simple!
 
